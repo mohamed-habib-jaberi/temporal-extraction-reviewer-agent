@@ -80,7 +80,7 @@ cp setup/samples-server/compose/.env.example setup/samples-server/compose/.env
 The official Temporal server samples are referenced as a Git submodule under `setup/samples-server`. Clone this project with its submodule:
 
 ```bash
-git clone --recurse-submodules <repository-url>
+git clone --recurse-submodules https://github.com/mohamed-habib-jaberi/temporal-extraction-reviewer-agent.git
 cd temporal-extraction-reviewer-agent
 ```
 
