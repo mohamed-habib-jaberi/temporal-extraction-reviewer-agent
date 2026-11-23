@@ -1,0 +1,14 @@
+[Unit]
+Description=Temporal PDF Pipeline Worker
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/Users/ET35771/Documents/AI/project/temporal-extraction-reviewer-agent/apps/pdf-extraction-02-temporal
+ExecStart=/Users/ET35771/miniconda3/envs/temporaldev/bin/python worker.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

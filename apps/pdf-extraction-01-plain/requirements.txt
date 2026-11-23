@@ -1,0 +1,6 @@
+# Client AWS compatible avec S3 et IDrive e2 : téléchargement et envoi de fichiers.
+boto3==1.43.32
+# Extraction du contenu des PDF et conversion au format Markdown.
+pymupdf4llm==1.27.2.3
+# Lecture du fichier .env pour charger la configuration et les clés d'accès.
+python-dotenv==1.2.2
